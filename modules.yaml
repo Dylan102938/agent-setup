@@ -1,0 +1,6 @@
+# External modules installed by install.sh.
+# Each entry is cloned/updated into modules/<repo-name> (gitignored), then its
+# `install` command is run inside the clone. Optional `ref` pins a branch/tag/SHA.
+modules:
+  - repo: git@github.com:Dylan102938/dstore.git
+    install: uv sync && uv run dstore install dsync

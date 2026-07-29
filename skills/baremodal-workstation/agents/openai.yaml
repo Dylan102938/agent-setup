@@ -1,0 +1,4 @@
+interface:
+  display_name: "BareModal Workstation"
+  short_description: "Run small experiments on the workstation"
+  default_prompt: "Use $baremodal-workstation to run a small experiment on the remote workstation."
